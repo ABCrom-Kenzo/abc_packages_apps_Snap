@@ -356,6 +356,7 @@ public class CameraControls extends RotatableLayout {
             mReviewDoneButton = null;
         }
         layoutRemaingPhotos();
+        mRemainingPhotos.setVisibility(View.VISIBLE);
     }
 
     private void showRipples(final View v, final boolean enable) {
